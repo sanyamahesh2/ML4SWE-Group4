@@ -1,20 +1,20 @@
-20250522_sweagent_claude-4-sonnet-20250514@sphinx-doc__sphinx-7985: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/sphinx-doc__sphinx-7985'
-20250522_sweagent_claude-4-sonnet-20250514@sphinx-doc__sphinx-8548: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/sphinx-doc__sphinx-8548'
-20250522_sweagent_claude-4-sonnet-20250514@matplotlib__matplotlib-23299: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/matplotlib__matplotlib-23299'
-20250522_sweagent_claude-4-sonnet-20250514@sphinx-doc__sphinx-8265: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/sphinx-doc__sphinx-8265'
-20250522_sweagent_claude-4-sonnet-20250514@astropy__astropy-8707: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/astropy__astropy-8707'
-20250522_sweagent_claude-4-sonnet-20250514@django__django-11087: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-11087'
-20250522_sweagent_claude-4-sonnet-20250514@matplotlib__matplotlib-20676: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/matplotlib__matplotlib-20676'
-20250522_sweagent_claude-4-sonnet-20250514@sympy__sympy-15976: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/sympy__sympy-15976'
-20250522_sweagent_claude-4-sonnet-20250514@pytest-dev__pytest-5840: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/pytest-dev__pytest-5840'
-20250522_sweagent_claude-4-sonnet-20250514@django__django-15280: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-15280'
-20250522_sweagent_claude-4-sonnet-20250514@django__django-14534: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-14534'
-20250522_sweagent_claude-4-sonnet-20250514@pytest-dev__pytest-10356: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/pytest-dev__pytest-10356'
-20250522_sweagent_claude-4-sonnet-20250514@matplotlib__matplotlib-26208: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/matplotlib__matplotlib-26208'
-20250522_sweagent_claude-4-sonnet-20250514@matplotlib__matplotlib-25479: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/matplotlib__matplotlib-25479'
-20250522_sweagent_claude-4-sonnet-20250514@django__django-14011: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-14011'
-20250522_sweagent_claude-4-sonnet-20250514@django__django-16560: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-16560'
-20250522_sweagent_claude-4-sonnet-20250514@django__django-15695: ERROR: [Errno 2] No such file or directory: '/content/20250522_sweagent_claude-4-sonnet-20250514/trajs/django__django-15695'
-20250511_sweagent_lm_32b@scikit-learn__scikit-learn-25747: ERROR: [Errno 2] No such file or directory: '/content/20250511_sweagent_lm_32b/trajs/scikit-learn__scikit-learn-25747'
-20250511_sweagent_lm_32b@sympy__sympy-19783: ERROR: [Errno 2] No such file or directory: '/content/20250511_sweagent_lm_32b/trajs/sympy__sympy-19783'
-20250511_sweagent_lm_32b@matplotlib__matplotlib-22865: ERROR: [Errno 2] No such file or directory: '/content/20250511_sweagent_lm_32b/trajs/matplotlib__matplotlib-22865'
+20250522_sweagent_claude-4-sonnet-20250514@sphinx-doc__sphinx-7985: {'str_replace_editor': 29, 'cd': 23, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@sphinx-doc__sphinx-8548: {'str_replace_editor': 43, 'cd': 46, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@matplotlib__matplotlib-23299: {'str_replace_editor': 29, 'grep': 10, 'cd': 26, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@sphinx-doc__sphinx-8265: {'str_replace_editor': 43, 'grep': 12, 'cd': 36, 'find': 4, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@astropy__astropy-8707: {'str_replace_editor': 26, 'grep': 5, 'cd': 17, 'find': 3, 'ls': 1, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@django__django-11087: {'str_replace_editor': 41, 'grep': 3, 'cd': 22, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@matplotlib__matplotlib-20676: {'str_replace_editor': 26, 'grep': 7, 'cd': 18, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@sympy__sympy-15976: {'str_replace_editor': 30, 'cd': 33, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@pytest-dev__pytest-5840: {'str_replace_editor': 22, 'cd': 45, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@django__django-15280: {'str_replace_editor': 85, 'cd': 34}
+20250522_sweagent_claude-4-sonnet-20250514@django__django-14534: {'str_replace_editor': 19, 'cd': 34, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@pytest-dev__pytest-10356: {'str_replace_editor': 28, 'cd': 39, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@matplotlib__matplotlib-26208: {'str_replace_editor': 79, 'cd': 62}
+20250522_sweagent_claude-4-sonnet-20250514@matplotlib__matplotlib-25479: {'str_replace_editor': 24, 'cd': 22, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@django__django-14011: {'str_replace_editor': 27, 'grep': 2, 'cd': 24, 'find': 1, 'python3': 4, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@django__django-16560: {'str_replace_editor': 58, 'grep': 7, 'cd': 21, 'submit': 2}
+20250522_sweagent_claude-4-sonnet-20250514@django__django-15695: {'str_replace_editor': 27, 'cd': 29, 'submit': 2}
+20250511_sweagent_lm_32b@scikit-learn__scikit-learn-25747: {'str_replace_editor': 6, 'python': 3, 'submit': 1}
+20250511_sweagent_lm_32b@sympy__sympy-19783: {'find': 1, 'str_replace_editor': 9, 'python': 4, 'submit': 1}
+20250511_sweagent_lm_32b@matplotlib__matplotlib-22865: {'find': 1, 'str_replace_editor': 5, 'grep': 2, 'cd': 2, 'ls': 1, 'submit': 1}
