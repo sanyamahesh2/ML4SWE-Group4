@@ -112,7 +112,7 @@ def locate_reproduction_code(traj_id: str):
             repro_steps.append(i)
 
     # Sort + deduplicate results before returning
-    return sorted(set(repro_steps))
+    return [i + 1 for i in sorted(set(repro_steps))]
 
 
 def locate_search(traj_id: str):
@@ -121,7 +121,7 @@ def locate_search(traj_id: str):
 
     Heuristics:
     - SWE-Agent search tools: find_file, search_file, search_dir.
-    - Shell search/navigation commands: grep, find, rg, ag, fd, ls, cat, cd.
+    - Shell search/navigation commands: grep, find, rg, ag, fd
     - The integrated editor "view" actions (e.g., 'str_replace_editor view ...')
       also count as navigation/search through the repo.
     """
@@ -133,7 +133,7 @@ def locate_search(traj_id: str):
     search_steps = []
 
     swe_search_tools = {"find_file", "search_file", "search_dir", "view"}
-    shell_search_cmds = {"grep", "find", "rg", "ag", "fd", "ls", "cat", "cd"}
+    shell_search_cmds = {"grep", "find", "rg", "ag", "fd"}
 
     for i, step in enumerate(trajectory):
         action = (step.get("action") or "").lower()
@@ -159,12 +159,12 @@ def locate_search(traj_id: str):
             is_search = True
 
         # Case 3: Shell search/navigation commands
-        # (including "cd", "ls", "grep", "find", etc.)
+        # ("grep", "find", etc.)
         if first in shell_search_cmds:
             is_search = True
 
-        # Case 4: Compound shell commands like "cd ... && python ...".
-        # We treat 'cd', 'grep', 'find', etc. as navigation/search.
+        # Case 4: Compound shell commands like "grep ... && python ...".
+        # We treat 'grep', 'find', etc. as navigation/search.
         if "&&" in tokens:
             parts = action.split("&&")
             for part in parts:
@@ -179,7 +179,7 @@ def locate_search(traj_id: str):
         if is_search:
             search_steps.append(i)
 
-    return sorted(set(search_steps))
+    return [i + 1 for i in sorted(set(search_steps))]
 
 
 def locate_tool_use(traj_id: str):
@@ -256,9 +256,9 @@ def main():
     out_dir = os.path.join(BASE_PATH, "task1_Maverick")
     os.makedirs(out_dir, exist_ok=True)
 
-    with open(os.path.join(out_dir, "locate_reproduction_code.log"), "w") as log1, \
-         open(os.path.join(out_dir, "locate_search.log"), "w") as log2, \
-         open(os.path.join(out_dir, "locate_tool_use.log"), "w") as log3:
+    with open(os.path.join(out_dir, "locate_reproduction_code_Maverick.log"), "w") as log1, \
+         open(os.path.join(out_dir, "locate_search_Maverick.log"), "w") as log2, \
+         open(os.path.join(out_dir, "locate_tool_use_Maverick.log"), "w") as log3:
 
         for tid in TRAJ_IDS:
             rep = locate_reproduction_code(tid)
